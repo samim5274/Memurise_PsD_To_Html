@@ -1,0 +1,35 @@
+.navbar{
+    background: #000000;
+}
+.nav-item{
+    padding-left: 1em;
+    text-transform: uppercase;
+}
+.TH:hover{
+    background: #000000;
+    font-size: 18px;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1 {
+    background-image: url('../Img/bg (1).JPG');
+    background-size: cover;
+}
+.carousel-img-2 {
+    background-image: url('../Img/bg (16).JPG');
+    background-size: cover;
+}
+.carousel-img-3 {
+    background-image: url('../Img/bg (30).JPG');
+    background-size: cover;
+}
+#Showcase{
+    color: #ffffff;
+}
+.BG-color{
+    background: #323332;
+}
+#Quarter{
+    background: #000000;
+}

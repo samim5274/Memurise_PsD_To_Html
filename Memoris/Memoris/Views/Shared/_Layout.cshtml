@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemorisE</title>
+    <link href="Img/icon1.jpg" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/fontawesome.css" rel="stylesheet" />
+    <link href="~/Content/navbar-fixed.css" rel="stylesheet" />
+    <link href="~/Content/slick-theme.css" rel="stylesheet" />
+    <link href="~/Content/slick.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    
+    @*Top bar*@
+    <div class="bg-light">
+        <div class="container text-dark">
+            <div class="row py-3">
+                <div class="col-md-4">
+                    <h3>
+                        <a href="~/Home/Index">MemorisE</a>
+                    </h3>
+                    <p class="m-0 p-0">My All Memories</p> 
+                </div>
+                @*<div class="col">
+                    <div class="d-flex flex-row">
+                        <div class="navbar-expand-lg">
+                            <ul class="navbar-nav text-end m-0">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Sing Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Rss Feeds</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Archives</a>
+                                </li>   
+                                <li>
+                                    <input class="nav-link rounded my-3" type="search" name="Search" placeholder="Search" />    
+                                </li>                             
+                            </ul>                                             
+                        </div>
+                    </div>
+                </div>*@
+            </div>                                   
+        </div>
+    </div>
+   
+
+    @*Menu Bar*@
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container">
+            @*<a href="#" class="navbar-brand">MemorisE</a>*@
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Style</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Gallary</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item TH">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    @RenderBody()
+    <section id="CopyRight" class="text-center text-light">
+        <div class="BG-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-2">
+                        <p>CopyRight &copy; : 2022 - All Rights Reservards- <a href="#">SAMIM HosseN</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/navbar-fixed.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/slick.js"></script>
+    <script src="~/Scripts/slick.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>
